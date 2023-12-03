@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+
+        @font-face {
+            font-family: psl;
+            src: url(Sakana.ttf);
+        }
+
+        .brandname{
+            padding:5px ;
+            /* background-color: orange; */
+            color: orange;
+        }
+
+        .login{
+            width: 35%;
+            background-color: limegreen;
+            padding: 40px;
+            margin-left: 10%;
+            margin-top: 8%;
+        }
+
+        .btn_xyz,.btn_abc{
+            width:100% ;
+            background-color: black;
+            color: white;
+            /* font-weight: bolder; */
+            font-size: 17px;
+            border: 3px solid white;
+        }
+
+        .btn_xyz:hover{
+            background-color:  orange;
+            color: black;
+            border: 3px solid black;
+        }
+
+        .btn_abc:hover{
+            background-color: orange;
+            color: black;
+            border: 3px solid black;
+        }
+
+        body{
+            background-image: url(books2.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: psl;
+        }
+
+        span{
+            color: orange;
+        }
+
+        .border{
+            border: 3px solid black;
+        }
+
+        .border:hover{
+            border: 3px solid black;
+        }
+
+        .title{
+            margin-bottom: 5%;
+            color: black;
+        }
+
+    </style>
+    
+</head>
+<body>
+
+    <div class=" brandname">
+        <h2><span class="glyphicon glyphicon-book"></span>  PUSTAKAM LOGIN PAGE </span></h2>
+    </div>
+
+    <div class="container login">
+
+        <form>
+
+            <div class="title text-center">
+                <h2>LOGIN </h2>
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="uname" placeholder="USERNAME" class="form-control border">
+            </div>
+
+            <div class="form-group">
+                <input type="password" name="pass" placeholder="PASSWORD" class="form-control border">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn_xyz">LOGIN</button>
+            </div>
+
+            <div class="form-group">
+                <button type="reset" class="btn btn_abc">RESET</button>
+            </div>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
